@@ -1,0 +1,24 @@
+GetBookingIds
+1 pozitive получение списка броней
+
+
+UpdateBooking
+2 pozitive обновление брони с id
+3 negative несуществующая бронь
+4 negative без токена
+5 negative неверное тело запроса
+6 negative период брони некорректный
+7 negative период брони 1 день
+8 negative цена <= 0
+
+
+
+PartialUpdateBooking
+8 pozitive обновление поля брони с id
+9 negative пустое тело запроса
+10 negative несуществующая бронь
+11 negative без токена
+12 negative неверное тело запроса
+13 negative период брони некорректный
+14 negative период брони 1 день
+16 negative цена <= 0
